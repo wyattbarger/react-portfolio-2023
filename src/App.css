@@ -1,3 +1,8 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+/* Added an id to the button for reporting a bug, this is used to resize. */
+#bug-report-button { 
+    width: 20px;
+    height: 20px;
+};
