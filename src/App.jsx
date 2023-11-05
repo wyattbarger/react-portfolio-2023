@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Add an import to bring in the necessary component to handle our routing with react-router-dom per the 6.18v documentation noted in the README under sources.
 import Header from './components/Header'; // Add an import to access the Header component containing our NavBar elements.
+import MyFooter from './components/Footer'; // Add an import to access the Header component containing our NavBar elements.
 
 import './App.css'; // Add an import for the App.css file to include necessary styling. 
 
@@ -17,7 +18,7 @@ function App() {
         {/* <Route path='/resume' element={<Resume />}/> */}
       {/* Add the footer component to render the footer for the portfolio. */}
       </Routes>
-      {/* <Footer /> */}
+      <MyFooter />
     </Router>
   );
 }

@@ -14,5 +14,7 @@
 
 [This is the section from the Flowbite react library documentation on their footer components, this was necessary as I had my own idea of how I wanted my footer to look so this documentation allowed me to find out the proper way to use these components along with tailwind CSS styling and div wrappers to acheive my desired design.](https://www.flowbite-react.com/docs/components/footer)
 
+[This article was used as it gave me a way to implement a piece of advice given to me in my first review session with Andres Jimenez, about importing my images instead of pathing to them directly in my code. This article offers a shorthand way of importing and declaring something as a React component in one line. It also explains many of the reasons to do this, as Andres also did.](https://betterprogramming.pub/react-best-way-of-importing-svg-the-how-and-why-f7c968272dd9)
+
 Review session with Andres Jimenez 11-1-23 
 Review session with Andres Jimenez 11-5-23 
