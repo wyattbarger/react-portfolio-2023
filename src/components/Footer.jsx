@@ -8,27 +8,27 @@ import Share from '../assets/sharing.svg';
 
 function MyFooter () {
     return (
-        <Footer container className='flex'>
+        <Footer container className='backgroundflex bg-black'>
                 <Footer.Brand
                 href="https://github.com/wyattbarger/react-portfolio-2023/issues"
                 src={Bug}
                 alt="Bug" 
                 />
             <div id='footer-center-items' className='flex justify-center'>
-                <Footer.Brand
-                href=""
+                <Footer.Brand 
+                href="https://github.com/wyattbarger"
                 src={Github}
-                alt=""
+                alt="Github Logo"
                 />
                 <Footer.Brand
-                href=""
+                href="mailto:wyattbarger@icloud.com"
                 src={Email}
-                alt=""
+                alt="Envelope"
                 />
                 <Footer.Brand
                 href=""
                 src={LinkedIn}
-                alt=""
+                alt="LinkedIn Logo"
                 />
             </div>
                 <Footer.Brand

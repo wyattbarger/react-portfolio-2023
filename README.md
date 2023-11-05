@@ -16,5 +16,31 @@
 
 [This article was used as it gave me a way to implement a piece of advice given to me in my first review session with Andres Jimenez, about importing my images instead of pathing to them directly in my code. This article offers a shorthand way of importing and declaring something as a React component in one line. It also explains many of the reasons to do this, as Andres also did.](https://betterprogramming.pub/react-best-way-of-importing-svg-the-how-and-why-f7c968272dd9)
 
+[Tailwind css documentation refering to justify items, used to get a refresh on how to style inline with className, this specific section of the documentation was useful whe syling the footer element.](https://v2.tailwindcss.com/docs/justify-items)
+
+[This is useful for the share button functionality I would like to add to make the url copy to the users clipboard so it can be shared by pasting it in a desired location.](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
+
+[Another source like the one about used to help implement the code I needed to acheive the desired share button functionality.](https://www.freecodecamp.org/news/how-to-get-the-current-url-with-javascript/#:~:text=You%20can%20do%20this%20by,location.)
+
+[I used this website to help get ideas for how to color and style my website.](https://coolors.co/000000-1b1d20-292b30-363940-444850-515660-80848c-989ba2-afb2b8-ffffff)
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
 Review session with Andres Jimenez 11-1-23 
 Review session with Andres Jimenez 11-5-23 
