@@ -8,5 +8,9 @@
 
 [NPM page for react-responsive which will be used to handle modile responsiveness within the project. Documentation present in this link will be referenced as needed.](https://www.npmjs.com/package/react-responsive)
 
+[This is the documentation I used to figure out how to establish a 'Router' component using react-router-dom to get my Header components NavBar to function properly. I also used the sub categories of this documentation as need for the router and the associated functionality.](https://reactrouter.com/en/main/routers/picking-a-router)
+
+[This was another source that I used to reference when working with the react-router-dom elements of my project.](https://www.w3schools.com/react/react_router.asp)
+
 Review session with Andres Jimenez 11-1-23 
 Review session with Andres Jimenez 11-5-23 
