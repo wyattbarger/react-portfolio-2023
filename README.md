@@ -12,5 +12,7 @@
 
 [This was another source that I used to reference when working with the react-router-dom elements of my project.](https://www.w3schools.com/react/react_router.asp)
 
+[This is the section from the Flowbite react library documentation on their footer components, this was necessary as I had my own idea of how I wanted my footer to look so this documentation allowed me to find out the proper way to use these components along with tailwind CSS styling and div wrappers to acheive my desired design.](https://www.flowbite-react.com/docs/components/footer)
+
 Review session with Andres Jimenez 11-1-23 
 Review session with Andres Jimenez 11-5-23 
