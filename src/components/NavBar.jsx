@@ -6,7 +6,7 @@ function NavBar() { // Add a function to create the NavBar component and conditi
     // const clientView = useLocation().pathname; // Add a variable to track the URL of the clients current accessed view. // 
     
     return (
-      <nav className='border-b border-gray-800'>
+      <nav className='border-b border-gray-800 font-montserrat'>
         <Navbar className='text-gray-300 bg-black' fluid> 
           <Navbar.Brand as={Link} to="/contact">
             <img
@@ -14,7 +14,7 @@ function NavBar() { // Add a function to create the NavBar component and conditi
               className="mr-3 h-6 sm:h-9"
               alt="WB Headshot"
             />
-            <span className="self-center whitespace-nowrap text-5xl font-semibold">
+            <span className="self-center whitespace-nowrap text-5xl font-light">
               Wyatt Barger
             </span>
           </Navbar.Brand>

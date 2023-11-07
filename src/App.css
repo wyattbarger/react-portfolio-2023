@@ -1,6 +1,8 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
 /* Added an id to the button for reporting a bug, this is used to resize. */
 #bug-report-button { 
     width: 20px;
