@@ -24,9 +24,9 @@
 
 [I used this website to help get ideas for how to color and style my website.](https://coolors.co/000000-1b1d20-292b30-363940-444850-515660-80848c-989ba2-afb2b8-ffffff)
 
-[]()
+[This source was used for finding out the best way to use gradients with tailwind css, along with the tailwindcss documentation. No code was taken from this website.](https://blog.logrocket.com/guide-adding-gradients-tailwind-css/)
 
-[]()
+[MDN docs on clip path that was also useful for trying to style my gradient on the about.jsx page that I was making.](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)
 
 []()
 

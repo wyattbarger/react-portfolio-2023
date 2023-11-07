@@ -14,7 +14,7 @@ function NavBar() { // Add a function to create the NavBar component and conditi
               className="mr-3 h-6 sm:h-9"
               alt="WB Headshot"
             />
-            <span className="self-center whitespace-nowrap text-xl font-semibold">
+            <span className="self-center whitespace-nowrap text-5xl font-semibold">
               Wyatt Barger
             </span>
           </Navbar.Brand>

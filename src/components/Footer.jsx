@@ -32,7 +32,7 @@ function MyFooter () {
                 alt="Envelope"
                 />
                 <Footer.Brand
-                href=""
+                href="https://www.linkedin.com/in/wyatt-barger/"
                 src={LinkedIn}
                 alt="LinkedIn Logo"
                 />
