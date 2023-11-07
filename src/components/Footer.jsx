@@ -14,7 +14,7 @@ function controlC(e) {
 
 function MyFooter () {
     return (
-        <Footer container className='backgroundflex bg-black rounded-none'>
+        <Footer container className='flex justify-center bg-black rounded-none border-t border-gray-800'>
                 <Footer.Brand id='bug-report-button' 
                 href="https://github.com/wyattbarger/react-portfolio-2023/issues"
                 src={Bug}

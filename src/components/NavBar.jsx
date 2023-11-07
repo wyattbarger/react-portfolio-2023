@@ -6,8 +6,8 @@ function NavBar() { // Add a function to create the NavBar component and conditi
     // const clientView = useLocation().pathname; // Add a variable to track the URL of the clients current accessed view. // 
     
     return (
-      <nav>
-        <Navbar className='text-gray-200 bg-black' fluid> 
+      <nav className='border-b border-gray-800'>
+        <Navbar className='text-gray-300 bg-black' fluid> 
           <Navbar.Brand as={Link} to="/contact">
             <img
               src={NameLogo}
@@ -20,16 +20,16 @@ function NavBar() { // Add a function to create the NavBar component and conditi
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
-            <Navbar.Link as={Link} to="/" className='text-gray-200'>
+            <Navbar.Link as={Link} to="/" className='text-gray-300'>
               Who I Am
             </Navbar.Link>
-            <Navbar.Link as={Link} to="/portfolio" className='text-gray-200'>
+            <Navbar.Link as={Link} to="/portfolio" className='text-gray-300'>
                 Portfolio
             </Navbar.Link>
-            <Navbar.Link as={Link} to="/contact" className='text-gray-200'>
+            <Navbar.Link as={Link} to="/contact" className='text-gray-300'>
                 Get In Touch
             </Navbar.Link>
-            <Navbar.Link as={Link} to="/resume" className='text-gray-200'>
+            <Navbar.Link as={Link} to="/resume" className='text-gray-300'>
                 View my Resume
             </Navbar.Link>
           </Navbar.Collapse>
