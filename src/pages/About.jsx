@@ -13,7 +13,7 @@ export default function About () {
                 </p>
             </div>
             <div className='pr-5 pt-5 w-4/12'>
-                <img src={myImage} alt="Family Photo" className='filter-grayscale'/>
+                <img src={myImage} alt="Family Photo" className='filter grayscale'/>
             </div>
         </section>
     );
