@@ -9,14 +9,13 @@ export default function About() {
   return (
     <section className="bg-black text-gray-200 flex bg-gradient-to-r from-gray-900 via-black to-black">
       <div className="pl-9 pt-9 pb-5 flex flex-col max-w-md ml-auto">
-        <h1 className="text-7xl text-cyan-700 font-league-spartan">Hello</h1>
+        <h1 className={`text-7xl text-cyan-700 font-league-spartan ${mouseHover ? `text-white` : `text-cyan-700`}`}>Hello</h1>
         <article className="pb-12">
           <p className="text-5xl">
             I am a <span>JavaScript</span> developer with a desire and passion
             for designing and developing useful, and functional technology.
           </p>
           <p className="text-3xl text-cyan-700">
-            {" "}
             My journey began with my certification via a bootcamp provided by
             Washinton University in St. Louis, MO in 2023.
           </p>
