@@ -10,7 +10,7 @@ export default function About () {
                     Hello
                 </h1>
                 <article className='pb-12'>
-                    <p className='text-5xl'>I am a web developer with a desire and passion for designing and developing useful, and functional technology.</p> 
+                    <p className='text-5xl'>I am a JavaScript developer with a desire and passion for designing and developing useful, and functional technology.</p> 
                     <p className='text-3xl text-cyan-700'> My journey began with my certification via a bootcamp provided by Washinton University in St. Louis, MO in 2023.</p>  
                     <p className=' text-xl '>I currently reside in the St. Louis area and am available to begin work as a part of your team today.</p>
                 </article>
