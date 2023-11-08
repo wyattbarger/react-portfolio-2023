@@ -24,7 +24,7 @@ function NavBar() { // Add a function to create the NavBar component and conditi
               Who I Am
             </Navbar.Link>
             <Navbar.Link as={Link} to="/portfolio" className='text-gray-300'>
-                Portfolio
+              Projects
             </Navbar.Link>
             <Navbar.Link as={Link} to="/contact" className='text-gray-300'>
                 Get In Touch

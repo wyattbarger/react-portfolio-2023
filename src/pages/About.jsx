@@ -17,8 +17,8 @@ export default function About () {
                 <Link className="text-gray-400 hover:text-cyan-700 hover:border-cyan-700 border bg-gray-800 border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-bold rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 font-league-spartan" to="/contact">Contact Wyatt</Link>
             </div>
             <div className='pr-5 pt-5 w-4/12 ml-auto relative'>
-                <div className='absolute inset-0 z-0 bg-gradient-to-r from-black to-gray-900'></div>
-                <img src={Family} alt="Family Photo" className='filter grayscale'/>
+                <div className='absolute inset-0 z-0 bg-gradient-to-r from-black to-cyan-900'></div>
+                <img src={Family} alt="Family Photo" className='filter grayscale absolute bottom-0'/>
             </div>
         </section>
     );
