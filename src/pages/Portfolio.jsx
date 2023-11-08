@@ -9,7 +9,7 @@ export default function Portfolio() {
   return (
     <section
       style={{ background: "linear-gradient(to top, black, #2a4365, black)" }}
-      className="bg-black flex justify-center items-center h-screen font-league-spartan"
+      className="bg-black flex justify-center items-center h-screen font-league-spartan pt-10 pb-10"
     >
       <div className="grid grid-cols-2 gap-y-10 gap-x-96 items-center justify-items-center">
         <div class="max-w-sm bg-black border border-cyan-700 rounded-lg shadow dark:border-gray-700">
@@ -23,11 +23,11 @@ export default function Portfolio() {
           <div class="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-cyan-700 dark:text-white">
-                Project Title
+                stock-flocker
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-300 dark:text-gray-400">
-              Short description of the project.
+              A social media website based around user input on stock pricing sentiment.
             </p>
             <div className="flex justify-between">
             <a
@@ -60,11 +60,11 @@ export default function Portfolio() {
           <div class="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-cyan-700 dark:text-white">
-                Project Title
+                ez-rd-me
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-300 dark:text-gray-400">
-              Short description of the project.
+              A project created using node and JavaScript to streamline the process of creating readme files.
             </p>
             <div className="flex justify-between">
             <a
@@ -96,11 +96,11 @@ export default function Portfolio() {
           <div class="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-cyan-700 dark:text-white">
-                Project Title
+                napoleons-horses
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-300 dark:text-gray-400">
-              Short description of the project.
+              A simple SQL employee tracker created to help learn the technology.
             </p>
             <div className="flex justify-between">
             <a
@@ -132,11 +132,11 @@ export default function Portfolio() {
           <div class="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-cyan-700 dark:text-white">
-                Project Title
+                strato-dash
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-300 dark:text-gray-400">
-              Short description of the project.
+              A front end JavaScript project using the openWeather API to create a weather dashboard.
             </p>
             <div className="flex justify-between">
             <a
