@@ -13,7 +13,7 @@ export default function Resume() {
         <h5 className="mb-2 text-3xl font-bold text-cyan-700 dark:text-white">
           Resume Download
         </h5>
-        <img className='pb-5 mx-auto w-1/2 filter grayscale blur-sm' src={ResumeSc} alt="Resume" />
+        <img className='pb-5 mx-auto w-1/2 filter grayscale blur-sm hover:blur-0 transition duration-500' src={ResumeSc} alt="Resume" />
         <p className="mb-5 text-base text-gray-300 sm:text-l">
           Click the link below to view and download my resume from Google Drive. 
         </p>

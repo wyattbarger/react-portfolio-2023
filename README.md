@@ -32,7 +32,7 @@
 
 [For some reason I could not get my styles to apply from my App.css page for the linear gradient I wanted to display in the background of the contact page. This is the source that I used to figure out how to add inline styling to react just to get an mvp reached. I didn't need to copy any code character for character but did need to reference the article pretty meticulously to get it to work.](https://www.pluralsight.com/guides/inline-styling-with-react)
 
-[]()
+[Added this effect to where my resume will be unblurred when the mouse is hovered for extra styling.](https://www.w3schools.com/howto/howto_css_transition_hover.asp)
 
 []()
 
