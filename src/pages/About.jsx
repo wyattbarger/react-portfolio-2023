@@ -7,19 +7,19 @@ export default function About() {
   const [mouseHover, setMouseHover] = useState(false);
 
   return (
-    <section className="bg-black text-gray-200 flex bg-gradient-to-r from-gray-900 via-black to-black">
+    <section className={`bg-black text-gray-200 flex bg-gradient-to-r from-gray-900 via-black to-black ${mouseHover ? `bg-gradient-to-r from-cyan-950 via-black to-black` : `bg-gradient-to-r from-gray-900 via-black to-black`} transition duration-500`}>
       <div className="pl-9 pt-9 pb-5 flex flex-col max-w-md ml-auto">
-        <h1 className={`text-7xl text-cyan-700 font-league-spartan ${mouseHover ? `text-white` : `text-cyan-700`}`}>Hello</h1>
+        <h1 className={`text-7xl text-cyan-700 font-league-spartan ${mouseHover ? `text-white` : `text-cyan-700`} transition duration-500`}>Hello</h1>
         <article className="pb-12">
-          <p className="text-5xl">
-            I am a <span>JavaScript</span> developer with a desire and passion
+          <p className={`text-5xl ${mouseHover ? `text-cyan-700` : `text-white`} transition duration-500`}>
+            I am a <span className={`${mouseHover ? `text-yellow-300` : `text-white`} transition duration-500`}>JavaScript</span> developer with a desire and passion
             for designing and developing useful, and functional technology.
           </p>
-          <p className="text-3xl text-cyan-700">
+          <p className={`text-3xl text-cyan-700 ${mouseHover ? `text-white` : `text-cyan-700`} transition duration-500`}>
             My journey began with my certification via a bootcamp provided by
             Washinton University in St. Louis, MO in 2023.
           </p>
-          <p className=" text-xl ">
+          <p className={`text-xl ${mouseHover ? `text-cyan-700` : `text-white`} transition duration-500`}>
             I currently reside in the St. Louis area and am available to begin
             work as a part of your team today.
           </p>
