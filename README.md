@@ -34,13 +34,13 @@
 
 [Added this effect to where my resume will be unblurred when the mouse is hovered for extra styling.](https://www.w3schools.com/howto/howto_css_transition_hover.asp)
 
-[]()
+[An example of the useState from React being used to conditionally style css, I wanted to see if there was something similar I could do for my ABout.jsx page for when the user is hovering over the button to contact me.](https://medium.com/geekculture/using-reacts-state-to-update-css-dynamically-c9b45570340c)
 
-[]()
+[Another source on useState that I referenced for the styling involved with About.jsx. No code was used but this source was helpful because it also went more into how ternary operators can be used which is exactly what I was looking for.](https://medium.com/geekculture/using-reacts-state-to-update-css-dynamically-c9b45570340c)
 
-[]()
+[MDN docs on the mouse enter event, also looked at the mouse leave event on this site as well. This was a bit harder to figure out but htis article helped point me in the same direction as how OnClick={} is handled in react, just instead these will probably need to be set to whether mouseHover is true or false in About.jsx.](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event)
 
-[]()
+[I also used this documentation for the mouse leave event, and also referenced the mouse enter event on this site, as mentioned in the above source this took me a bit longer than I expected to figure out the best way to implement this.](https://www.w3schools.com/jsref/event_onmouseleave.asp)
 
 Review session with Andres Jimenez 11-1-23 
 Review session with Andres Jimenez 11-5-23 
