@@ -1,10 +1,19 @@
+import React, { useState } from 'react';
 import Email from "../assets/emailcyan700.png"; 
-import LinkedIn from '../assets/linkedincyan700.png'; 
+import LinkedIn from '../assets/linkedincyan700.png';
 
 export default function Contact() {
+  const [mouseHover, setMouseHover] = useState(false);
+
   return (
     <section style={{background: 'linear-gradient(to top, black, #2a4365, black)'}} className="bg-black flex justify-center items-center h-screen font-league-spartan">
-      <div id="parent-contact" className="w-6/12 p-4 text-center bg-black border border-cyan-700 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+      <div id="parent-contact" className="w-6/12 p-4 text-center bg-black border border-cyan-700 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700"
+      onMouseEnter={() => setMouseHover(true)}
+      onMouseLeave={() => setMouseHover(false)}
+      style={{ boxShadow: mouseHover ? '0 0 300px #2B6CB0' : 'none',
+      transition: 'box-shadow 0.5s ease-in-out'
+    }}
+      >
         <h5 className="mb-2 text-3xl font-bold text-cyan-700 dark:text-white">
           Contact Links
         </h5>
