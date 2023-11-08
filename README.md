@@ -1,4 +1,51 @@
-# React Portfolio 2023
+# Wyatt Barger Dev Portfolio
+
+![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+
+
+## TABLE OF CONTENTS
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
+- [References](#references)
+
+
+
+
+### DESCRIPTION
+
+
+This is my first portfolio made using react with less than a week deadline, which was assigned with minimal direction near the end of my full stack javascript coding bootcamp at Washington University. I have tried to make a presentable but clean portfolio that is reponsive, and makes  use of the features of react, and deliver a enjoyable and easy user experience to anyone who might take the time to view my portfolio. This project should offer a good starter point for refractoring to a cleaner product as currentlyit represents a mvp, however it also should provide a good opprotunity to use a draft once more advanced technologies are learned and an updated portfolio is able to be made.
+
+
+### LICENSE
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+### TESTS
+
+
+This was my first attempt at making a React project on my own, and the current version as of this README was created to meet a class deadline, so there are adjustments to the code I am aware I need to correct, and do plan to correct them. For example, much of my websites elements could have the responsivness improved if they were properly defined as components, such as my SVG images. This also would have allowed me to style them directly with TailwindCSS. This issues is also notable in the Portfolio.jsx page, where one card should have been created as a component with props passed to the children so that the appropriate customization could be added as desired. These are issues that are due to inexperience with the technology, have been noted by the developer, and will be fixed in as timely a manner as is possible.
+
+### QUESTIONS
+
+[wyattbarger](https://github.com)
+
+
+[wyattbarger@icloud.com](mailto:wyattbarger@icloud.com)
+
+- Please click the above email address to reach out to me directly! Please include a subject line so that I don't miss your email!
+
+
+### REFERENCES
 
 [This Stack Overflow resource was provided during the meeting reviewing React to help me reference images in a way that prevents errors in pathing.](https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in-react)
 
