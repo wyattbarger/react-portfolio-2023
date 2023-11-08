@@ -8,7 +8,3 @@
     width: 20px;
     height: 20px;
 };
-
-.bg-gradient-radial {
-    background: radial-gradient(circle at center, transparent, black 70%);
-};

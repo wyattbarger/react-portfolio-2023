@@ -28,9 +28,9 @@
 
 [MDN docs on clip path that was also useful for trying to style my gradient on the about.jsx page that I was making.](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)
 
-[]()
+[Here is the Flowbite docs for tailwindcss cards, I used the Call to action cards format to customize to make a nice card on my /contact route that will open a draft email to my personal email, and link to my LinkedIn profile page. I had to change the styling and everything to better match my work, so this was mainly used as a frame.](https://flowbite.com/docs/components/card/)
 
-[]()
+[For some reason I could not get my styles to apply from my App.css page for the linear gradient I wanted to display in the background of the contact page. This is the source that I used to figure out how to add inline styling to react just to get an mvp reached. I didn't need to copy any code character for character but did need to reference the article pretty meticulously to get it to work.](https://www.pluralsight.com/guides/inline-styling-with-react)
 
 []()
 

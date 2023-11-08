@@ -6,7 +6,6 @@ import MyFooter from './components/Footer'; // Add an import to access the Heade
 import './App.css'; // Add an import for the App.css file to include necessary styling. 
 
 function App() {
-
   return (
     <main>
       {/* Add the Header component to render the header for the portfolio. */}
