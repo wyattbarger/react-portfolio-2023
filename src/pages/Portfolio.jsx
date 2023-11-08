@@ -29,24 +29,22 @@ export default function Portfolio() {
             />
           </a>
           <div class="p-5">
-            <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-cyan-700 dark:text-white">
                 stock-flocker
               </h5>
-            </a>
             <p class="mb-3 font-normal text-gray-300 dark:text-gray-400">
               A social media website based around user input on stock pricing sentiment.
             </p>
             <div className="flex justify-between">
             <a
-              href="#"
+              href="https://github.com/wyattbarger/stock-flocker"
               className="mr-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300 border hover:border-cyan-700 hover:text-cyan-700"
             >
               Github Repo
               <img className='pl-1 mr-2' src={Github} alt="" />
             </a>
             <a
-              href="#"
+              href="https://shrouded-coast-42223-a6c05e1c3810.herokuapp.com/"
               className="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 border hover:border-cyan-700 hover:text-cyan-700"
             >
               Deployment
@@ -62,7 +60,7 @@ export default function Portfolio() {
          style={{ boxShadow: mouseHover ? '0 0 50px #2B6CB0' : 'none',
          transition: 'box-shadow 0.5s ease-in-out'
        }}>
-          <a href="#">
+          <a href="https://github.com/wyattbarger/ez-rd-me">
             <img
               className="rounded-t-lg"
               src={ReadMe}
@@ -70,24 +68,22 @@ export default function Portfolio() {
             />
           </a>
           <div class="p-5">
-            <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-cyan-700 dark:text-white">
                 ez-rd-me
               </h5>
-            </a>
             <p class="mb-3 font-normal text-gray-300 dark:text-gray-400">
               A project created using node and JavaScript to streamline the process of creating readme files.
             </p>
             <div className="flex justify-between">
             <a
-              href="#"
+              href="https://github.com/wyattbarger/ez-rd-me"
               className="mr-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300 border hover:border-cyan-700 hover:text-cyan-700"
             >
               Github Repo
               <img className='pl-1' src={Github} alt="" />
             </a>
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1k-5ne-ELsnhDBMZprgS7wjf1jMO1o1Il/view"
               className="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 border hover:border-cyan-700 hover:text-cyan-700"
             >
               Deployment
@@ -102,7 +98,7 @@ export default function Portfolio() {
          style={{ boxShadow: mouseHover ? '0 0 50px #2B6CB0' : 'none',
          transition: 'box-shadow 0.5s ease-in-out'
        }}>
-          <a href="#">
+          <a href="https://github.com/wyattbarger/napoleons-horses">
             <img
               className="rounded-t-lg"
               src={Horse}
@@ -110,28 +106,26 @@ export default function Portfolio() {
             />
           </a>
           <div class="p-5">
-            <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-cyan-700 dark:text-white">
                 napoleons-horses
               </h5>
-            </a>
             <p class="mb-3 font-normal text-gray-300 dark:text-gray-400">
               A simple SQL employee tracker created to help learn the technology.
             </p>
             <div className="flex justify-between">
             <a
-              href="#"
+              href="https://github.com/wyattbarger/napoleons-horses"
               className="mr-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300 border hover:border-cyan-700 hover:text-cyan-700"
             >
               Github Repo
               <img className='pl-1' src={Github} alt="" />
             </a>
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1E0H9Pn58zo_zLOurf63uPgRjktQJpszw/view?pli=1"
               className="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 border hover:border-cyan-700 hover:text-cyan-700"
             >
               Deployment
-              <img className='pl-1' src={Rocket} alt="" />
+              <img className='pl-1' src={Rocket} alt=""/>
             </a>
             </div>
           </div>
@@ -142,7 +136,7 @@ export default function Portfolio() {
          style={{ boxShadow: mouseHover ? '0 0 50px #2B6CB0' : 'none',
          transition: 'box-shadow 0.5s ease-in-out'
        }}>
-          <a href="#">
+          <a href="https://github.com/wyattbarger/drcla-thm-wthr-dash">
             <img
               className="rounded-t-lg"
               src={Dash}
@@ -150,24 +144,22 @@ export default function Portfolio() {
             />
           </a>
           <div class="p-5">
-            <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-cyan-700 dark:text-white">
                 strato-dash
               </h5>
-            </a>
             <p class="mb-3 font-normal text-gray-300 dark:text-gray-400">
               A front end JavaScript project using the openWeather API to create a weather dashboard.
             </p>
             <div className="flex justify-between">
             <a
-              href="#"
+              href="https://github.com/wyattbarger/drcla-thm-wthr-dash"
               className="mr-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300 border hover:border-cyan-700 hover:text-cyan-700"
             >
               Github Repo
               <img className='pl-1' src={Github} alt="" />
             </a>
             <a
-              href="#"
+              href="https://wyattbarger.github.io/drcla-thm-wthr-dash/"
               className="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 border hover:border-cyan-700 hover:text-cyan-700"
             >
               Deployment
