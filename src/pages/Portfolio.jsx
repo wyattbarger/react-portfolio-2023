@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Github from '../assets/githubcyan700.png';
 import Rocket from '../assets/rocketcyan700.png';
 import ReadMe from '../assets/ez-rd-me.png';
@@ -6,13 +7,20 @@ import Dash from '../assets/strato-dash-screenshot.png';
 import Horse from '../assets/napoleons-horses-sc.png';
 
 export default function Portfolio() {
+  const [mouseHover, setMouseHover] = useState(false);
+
   return (
     <section
       style={{ background: "linear-gradient(to top, black, #2a4365, black)" }}
       className="bg-black flex justify-center items-center h-screen font-league-spartan pt-10 pb-10"
     >
       <div className="grid grid-cols-2 gap-y-10 gap-x-96 items-center justify-items-center">
-        <div class="max-w-sm bg-black border border-cyan-700 rounded-lg shadow dark:border-gray-700">
+        <div class="max-w-sm bg-black border border-cyan-700 rounded-lg shadow dark:border-gray-700"
+         onMouseEnter={() => setMouseHover(true)}
+         onMouseLeave={() => setMouseHover(false)}
+         style={{ boxShadow: mouseHover ? '0 0 50px #2B6CB0' : 'none',
+         transition: 'box-shadow 0.5s ease-in-out'
+       }}>
           <a href="#">
             <img
               className="rounded-t-lg"
@@ -49,7 +57,11 @@ export default function Portfolio() {
         </div>
       
     
-        <div class="max-w-sm bg-black border border-cyan-700 rounded-lg shadow dark:border-gray-700">
+        <div class="max-w-sm bg-black border border-cyan-700 rounded-lg shadow dark:border-gray-700" onMouseEnter={() => setMouseHover(true)}
+         onMouseLeave={() => setMouseHover(false)}
+         style={{ boxShadow: mouseHover ? '0 0 50px #2B6CB0' : 'none',
+         transition: 'box-shadow 0.5s ease-in-out'
+       }}>
           <a href="#">
             <img
               className="rounded-t-lg"
@@ -85,7 +97,11 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div class="max-w-sm bg-black border border-cyan-700 rounded-lg shadow dark:border-gray-700">
+        <div class="max-w-sm bg-black border border-cyan-700 rounded-lg shadow dark:border-gray-700" onMouseEnter={() => setMouseHover(true)}
+         onMouseLeave={() => setMouseHover(false)}
+         style={{ boxShadow: mouseHover ? '0 0 50px #2B6CB0' : 'none',
+         transition: 'box-shadow 0.5s ease-in-out'
+       }}>
           <a href="#">
             <img
               className="rounded-t-lg"
@@ -121,7 +137,11 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div class="max-w-sm bg-black border border-cyan-700 rounded-lg shadow dark:border-gray-700">
+        <div class="max-w-sm bg-black border border-cyan-700 rounded-lg shadow dark:border-gray-700" onMouseEnter={() => setMouseHover(true)}
+         onMouseLeave={() => setMouseHover(false)}
+         style={{ boxShadow: mouseHover ? '0 0 50px #2B6CB0' : 'none',
+         transition: 'box-shadow 0.5s ease-in-out'
+       }}>
           <a href="#">
             <img
               className="rounded-t-lg"
