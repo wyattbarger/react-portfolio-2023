@@ -1,5 +1,5 @@
-import Email from "../assets/mail1.png"; 
-import LinkedIn from '../assets/linkedin1.png'; 
+import Email from "../assets/emailcyan700.png"; 
+import LinkedIn from '../assets/linkedincyan700.png'; 
 
 export default function Contact() {
   return (

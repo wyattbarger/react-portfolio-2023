@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function About () {
     return (
-        <section className="bg-black text-gray-200 flex">
+        <section className="bg-black text-gray-200 flex bg-gradient-to-r from-gray-950 via-black to-black">
             <div className='pl-9 pt-9 pb-5 flex flex-col max-w-md ml-auto'>
                 <h1 className="text-7xl text-cyan-700 font-league-spartan">
                     Hello
