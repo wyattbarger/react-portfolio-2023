@@ -21,6 +21,10 @@
 
 This is my first portfolio made using react with less than a week deadline, which was assigned with minimal direction near the end of my full stack javascript coding bootcamp at Washington University. I have tried to make a presentable but clean portfolio that is reponsive, and makes  use of the features of react, and deliver a enjoyable and easy user experience to anyone who might take the time to view my portfolio. This project should offer a good starter point for refractoring to a cleaner product as currentlyit represents a mvp, however it also should provide a good opprotunity to use a draft once more advanced technologies are learned and an updated portfolio is able to be made.
 
+Portfolio Update 1-9-24:
+
+Check for comments left before turning in the mvp for grading to see what areas of the portfolio can be improved on. Some that come to mind right away without doing much looking are the navbar links not remaining the color of the hover effect when they are the page that is being viewed by the client.
+
 
 ### LICENSE
 
