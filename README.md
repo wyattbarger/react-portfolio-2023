@@ -23,7 +23,7 @@ This is my first portfolio made using react with less than a week deadline, whic
 
 Portfolio Update 1-9-24:
 
-Check for comments left before turning in the mvp for grading to see what areas of the portfolio can be improved on. Some that come to mind right away without doing much looking are the navbar links not remaining the color of the hover effect when they are the page that is being viewed by the client. The contact page needs to be changed to an email form which is more appropriate than having the email directly linked as I currently have it. Maybe there is a way to change the button so that it opens a form. 
+Check for comments left before turning in the mvp for grading to see what areas of the portfolio can be improved on. Some that come to mind right away without doing much looking are the navbar links not remaining the color of the hover effect when they are the page that is being viewed by the client. The contact page needs to be changed to an email form which is more appropriate than having the email directly linked as I currently have it. Maybe there is a way to change the button so that it opens a form. Each of the pages that have the current elements set that aren't reactive in the way the form may need to be should be optimized for mobile users.
 
 
 ### LICENSE
