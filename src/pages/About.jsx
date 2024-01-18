@@ -25,7 +25,7 @@ export default function About() {
           </p>
         </article>
         <Link
-          className="text-gray-400 hover:text-cyan-700 hover:border-cyan-700 border bg-gray-800 border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-bold rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 font-league-spartan"
+          className="text-gray-400 hover:text-cyan-700 hover:border-cyan-700 border bg-gray-800 border-gray-800 hover:bg-gray-900 hover:animate-bounce focus:ring-4 focus:outline-none focus:ring-gray-300 font-bold rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 font-league-spartan transition-all ease-in-out duration-400"
           to="/contact"
           onMouseEnter={() => setMouseHover(true)}
           onMouseLeave={() => setMouseHover(false)}
@@ -38,7 +38,7 @@ export default function About() {
         <img
           src={Family}
           alt="Family Photo"
-          className="filter grayscale absolute bottom-0"
+          className="filter grayscale absolute bottom-0 hover:grayscale-0 transition duration-500"
         />
       </div>
     </section>
