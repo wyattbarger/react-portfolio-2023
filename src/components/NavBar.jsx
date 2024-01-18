@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'; // Add an import for react-router-dom to use Link and useLocation to conditionally render the tabs present based on the users current page. //
 import { Navbar } from 'flowbite-react'; // Add an import to bring in the Navbar component from flowbite-react. // 
-import NameLogo from '../assets/programming.svg';
+import HeadShot from '../assets/AvatarHeadshot.png'; // Add an import to bring in the headshot image. //
 
 function NavBar() { // Add a function to create the NavBar component and conditionally render the links based on the users current location. // 
     // const clientView = useLocation().pathname; // Add a variable to track the URL of the clients current accessed view. // 
@@ -10,7 +10,7 @@ function NavBar() { // Add a function to create the NavBar component and conditi
         <Navbar className='text-gray-300 bg-black' fluid> 
           <Navbar.Brand as={Link} to="/contact">
             <img
-              src={NameLogo}
+              src={HeadShot}
               className="mr-3 h-6 sm:h-9"
               alt="WB Headshot"
             />
