@@ -16,8 +16,8 @@ export default function About() {
             for designing and developing useful, and functional technology.
           </p>
           <p className={`text-3xl text-cyan-700 ${mouseHover ? `text-white` : `text-cyan-700`} transition duration-500`}>
-            My journey began with my certification via a bootcamp provided by
-            Washinton University in St. Louis, MO in 2023.
+            My journey began with my certification in full stack development from
+            Washinton University in St. Louis, MO in Novemeber of 2023.
           </p>
           <p className={`text-xl ${mouseHover ? `text-cyan-700` : `text-white`} transition duration-500`}>
             I currently reside in the St. Louis area and am available to begin
