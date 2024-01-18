@@ -34,7 +34,7 @@ export default function Contact() {
             </div>
           </a>
           <a
-            href="https://www.linkedin.com/in/wyatt-barger/"
+            href="https://www.linkedin.com/in/wyatt-barger/" target='_blank'
             className="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 hover:text-cyan-700 hover:border-cyan-700"
           >
             <img className='pr-3' src={LinkedIn} alt="LinkedIn Logo" />

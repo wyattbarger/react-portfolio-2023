@@ -17,22 +17,26 @@ function MyFooter () {
         <Footer container className='flex justify-center bg-black rounded-none border-t border-gray-800'>
                 <Footer.Brand id='bug-report-button' 
                 href="https://github.com/wyattbarger/react-portfolio-2023/issues"
+                target='_blank'
                 src={Bug}
                 alt="Bug" 
                 />
             <div id='footer-center-items' className='flex justify-center'>
                 <Footer.Brand 
                 href="https://github.com/wyattbarger"
+                target='_blank'
                 src={Github}
                 alt="Github Logo"
                 />
                 <Footer.Brand
                 href="mailto:wyattbarger@icloud.com"
+                target='_blank'
                 src={Email}
                 alt="Envelope"
                 />
                 <Footer.Brand
                 href="https://www.linkedin.com/in/wyatt-barger/"
+                target='_blank'
                 src={LinkedIn}
                 alt="LinkedIn Logo"
                 />
