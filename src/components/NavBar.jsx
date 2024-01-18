@@ -11,7 +11,7 @@ function NavBar() { // Add a function to create the NavBar component and conditi
           <Navbar.Brand as={Link} to="/">
             <img
               src={HeadShot}
-              className="mr-3 h-6 sm:h-9"
+              className="mr-3 h-6 sm:h-9 filter grayscale hover:animate-pulse transition duration-5"
               alt="WB Headshot"
             />
             <span className="self-center whitespace-nowrap text-5xl font-light">
