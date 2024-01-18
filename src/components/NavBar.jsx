@@ -14,22 +14,22 @@ function NavBar() { // Add a function to create the NavBar component and conditi
               className="mr-3 h-6 sm:h-9 filter grayscale hover:animate-pulse transition duration-5"
               alt="WB Headshot"
             />
-            <span className="self-center whitespace-nowrap text-5xl font-light">
+            <span className="self-center whitespace-nowrap text-5xl font-light hover:text-cyan-700 transition-all duration-300">
               Wyatt Barger
             </span>
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
-            <Navbar.Link as={Link} to="/" className='text-gray-300'>
+            <Navbar.Link as={Link} to="/" className='text-gray-300 hover:text-cyan-700 transition-all duration-300'>
               Who I Am
             </Navbar.Link>
-            <Navbar.Link as={Link} to="/portfolio" className='text-gray-300'>
+            <Navbar.Link as={Link} to="/portfolio" className='text-gray-300 hover:text-cyan-700 transition-all duration-300'>
               Projects
             </Navbar.Link>
-            <Navbar.Link as={Link} to="/contact" className='text-gray-300'>
+            <Navbar.Link as={Link} to="/contact" className='text-gray-300 hover:text-cyan-700 transition-all duration-300'>
                 Get In Touch
             </Navbar.Link>
-            <Navbar.Link as={Link} to="/resume" className='text-gray-300'>
+            <Navbar.Link as={Link} to="/resume" className='text-gray-300 hover:text-cyan-700 transition-all duration-300'>
                 View my Resume
             </Navbar.Link>
           </Navbar.Collapse>
