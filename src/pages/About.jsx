@@ -9,7 +9,7 @@ export default function About() {
   return (
     <section className={`bg-black text-gray-200 flex bg-gradient-to-r from-gray-900 via-black to-black ${mouseHover ? `bg-gradient-to-r from-cyan-950 via-black to-black` : `bg-gradient-to-r from-gray-900 via-black to-black`} transition duration-500`}>
       <div className="pl-9 pt-9 pb-5 flex flex-col max-w-md ml-auto">
-        <h1 className={`text-7xl text-cyan-700 font-league-spartan ${mouseHover ? `text-white` : `text-cyan-700`} transition duration-500`}>Hello</h1>
+        <h1 className={`text-7xl text-cyan-700 font-league-spartan ${mouseHover ? `text-white animate-pulse` : `text-cyan-700`} transition duration-500`}>Hello</h1>
         <article className="pb-12">
           <p className={`text-5xl ${mouseHover ? `text-cyan-700` : `text-white`} transition duration-500`}>
             I am a <span className={`${mouseHover ? `text-yellow-300` : `text-white`} transition duration-500`}>JavaScript</span> developer with a desire and passion
