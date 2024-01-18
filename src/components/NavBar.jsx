@@ -8,7 +8,7 @@ function NavBar() { // Add a function to create the NavBar component and conditi
     return (
       <nav className='border-b border-gray-800 font-montserrat'>
         <Navbar className='text-gray-300 bg-black' fluid> 
-          <Navbar.Brand as={Link} to="/contact">
+          <Navbar.Brand as={Link} to="/">
             <img
               src={HeadShot}
               className="mr-3 h-6 sm:h-9"
