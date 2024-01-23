@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Email from "../assets/emailcyan700.png"; 
 import LinkedIn from '../assets/linkedincyan700.png';
 import { Modal } from 'flowbite-react';
-import EmailButton from '../components/EmailButton';
+import EmailForm from '../components/EmailForm';
 
 export default function Contact() {
   const [mouseHover, setMouseHover] = useState(false);
