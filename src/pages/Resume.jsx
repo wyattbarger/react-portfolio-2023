@@ -30,6 +30,7 @@ export default function Resume() {
           </p>
           <div className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 animate-bounce">
             <a
+              target="_blank"
               href="https://docs.google.com/document/d/1S6JcXNYjBCFNBSY_2te3c3k72J7Z9Lmu0X5pYp3HCc8/edit?usp=sharing"
               className="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 hover:text-cyan-700 hover:border-cyan-700"
             >
