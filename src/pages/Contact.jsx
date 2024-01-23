@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import Email from "../assets/emailcyan700.png"; 
 import LinkedIn from '../assets/linkedincyan700.png';
+import { Modal } from 'flowbite-react';
+import EmailButton from '../components/EmailButton';
 
 export default function Contact() {
   const [mouseHover, setMouseHover] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <section style={{background: 'linear-gradient(to top, black, #2a4365, black)'}} className="bg-black flex justify-center items-center h-screen font-league-spartan">
@@ -21,9 +24,9 @@ export default function Contact() {
           Please use the links below to reach out to me through my personal email, or my LinkedIn account.
         </p>
         <div className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-          <a
-            href="mailto:wyattbarger@icloud.com"
-            className="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 hover:text-cyan-700 hover:border-cyan-700"
+          <button
+            className="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 hover:text-cyan-700 hover:border-cyan-700" 
+            onClick={() => setShowModal(true)}
           >
             <img className='pr-3' src={Email} alt="Envelope" />
             <div className="text-left">
@@ -32,7 +35,7 @@ export default function Contact() {
                 Email Wyatt
               </div>
             </div>
-          </a>
+          </button>
           <a
             href="https://www.linkedin.com/in/wyatt-barger/" target='_blank'
             className="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 hover:text-cyan-700 hover:border-cyan-700"
