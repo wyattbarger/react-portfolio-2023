@@ -32,6 +32,7 @@ export const EmailForm = ({ onClose }) => {
     ref={form} 
     onSubmit={sendEmail}
     className="p-4 bg-black m-2"
+    autoComplete="off"
     >
       <label className="text-cyan-700 font-montserrat font-semibold">Your Name</label>
       <input type="text" name="user_name" className="focus:ring-cyan-600 bg-gray-800 font-league-spartan font-bold text-base text-cyan-500"/>
