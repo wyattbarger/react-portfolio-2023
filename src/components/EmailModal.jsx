@@ -1,19 +1,36 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import EmailForm from "./EmailForm";
 
 function EmailModal({ onClose }) {
   const [isOpen, setIsOpen] = useState(true);
   const [mouseHover, setMouseHover] = useState(false);
+  const modalRef = useRef();
 
   const closeModal = () => {
     setIsOpen(false);
     onClose(); // Close the modal
   };
+
+  const handleClickOutside = (event) => {
+    if (modalRef.current && !modalRef.current.contains(event.target)) {
+      closeModal();
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <>
       {isOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
           <dialog
+            ref={modalRef}
             className="flex-col w-64 bg-black border-cyan-700 border rounded-lg"
             open
             onMouseEnter={() => setMouseHover(true)}

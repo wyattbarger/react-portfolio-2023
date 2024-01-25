@@ -1,7 +1,8 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 export const EmailForm = ({ onClose }) => {
+  const [ sending, setSending ] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -12,12 +13,14 @@ export const EmailForm = ({ onClose }) => {
         "service_8wydy76",
         "template_yei6unq",
         form.current,
-        "0Do3l4CleIcGIZG4D"
+        "0Do3l4CleIcGIZG4D",
+        setSending(true)
       )
       .then(
         (result) => {
           console.log(result.text);
           console.log("EmailJS Result:", result.text);
+          setSending(false);
           onClose();
         },
         (error) => {
@@ -61,9 +64,10 @@ export const EmailForm = ({ onClose }) => {
         className="focus:ring-cyan-600 bg-gray-800 font-league-spartan font-bold text-base text-cyan-500 h-60"
       />
       <input
-        className="bg-gray-800 hover:bg-gray-700 focus:ring-2 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 hover:text-cyan-700 font-semibold hover:border-cyan-700 border-gray-800 border"
+        className={`bg-gray-800 hover:bg-gray-700 focus:ring-1 focus:outline-none focus:ring-cyan-700 focus:text-cyan-700 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 hover:text-cyan-700 font-semibold hover:border-cyan-700 border-gray-800 border
+        ${sending ? 'animate-pulse' : ''}`}
         type="submit"
-        value="Send"
+        value={sending ? "Sending..." : "Send"}
       />
     </form>
   );
