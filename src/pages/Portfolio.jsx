@@ -27,7 +27,7 @@ export default function Portfolio() {
       style={{ background: "linear-gradient(to top, black, #2a4365, black)",
       minHeight: "100vh"
      }}
-      className="pt-10"
+      className="pt-10 pb-10"
     >
       <section className="p-10">
       {projects.map((project, index) => (
