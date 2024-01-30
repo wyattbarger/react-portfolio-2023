@@ -45,7 +45,7 @@ export default function About() {
             } transition duration-500`}
           >
             My journey began with my certification in full stack development
-            from Washinton University in St. Louis, MO in Novemeber of 2023.
+            from Washington University in St. Louis, MO in November of 2023.
           </p>
           <p
             className={`text-xl ${
