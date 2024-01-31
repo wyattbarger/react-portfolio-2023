@@ -29,12 +29,6 @@ function MyFooter () {
                 alt="Github Logo"
                 />
                 <Footer.Brand
-                href="mailto:wyattbarger@icloud.com"
-                target='_blank'
-                src={Email}
-                alt="Envelope"
-                />
-                <Footer.Brand
                 href="https://www.linkedin.com/in/wyatt-barger/"
                 target='_blank'
                 src={LinkedIn}
