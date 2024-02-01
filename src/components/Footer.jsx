@@ -1,20 +1,18 @@
 import { Footer } from 'flowbite-react';
 import BugReportIcon from './BugReportFooterIcon';
 import GithubFooterIcon from './GithubFooterIcon';
+import LinkedinFooterIcon from './LinkedinFooterIcon';
 
-// Add a function that will copy the url of the current page to the users clip board.
-function controlC(e) {
-    e.preventDefault();
-    navigator.clipboard.writeText(window.location.href);
-};
-
-function MyFooter () {
+function MyFooter() {
     return (
-        <Footer container className='flex justify-center bg-black rounded-none border-t border-gray-800'>
-            <BugReportIcon/>
-            <GithubFooterIcon/>
+        <Footer container className='flex mx-auto bg-black rounded-none border-t border-gray-800'>
+            <div className="flex justify-center items-center w-full">
+                <BugReportIcon />
+                <GithubFooterIcon />
+                <LinkedinFooterIcon />
+            </div>
         </Footer>
     );
-};
+}
 
 export default MyFooter;
