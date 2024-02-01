@@ -15,7 +15,7 @@ function NavBar() { // Add a function to create the NavBar component and conditi
               className="mr-3 h-6 sm:h-9 filter grayscale hover:animate-pulse transition duration-5"
               alt="WB Headshot"
             />
-            <span className="self-center whitespace-nowrap text-5xl font-light hover:text-cyan-700 transition-all duration-300">
+            <span className="self-center whitespace-nowrap sm:text-5xl text-3xl font-light hover:text-cyan-700 transition-all duration-300">
               Wyatt Barger
             </span>
           </Navbar.Brand>
