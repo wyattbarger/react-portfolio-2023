@@ -23,7 +23,7 @@ function BugReportIcon() {
         src={BugIcon}
         alt="Bug Icon"
         style={isHovered ? hoverStyle : nonHoverStyle}
-        className="w-6 h-6 transition duration-1000"
+        className="w-6 h-6 sm:w-9 sm:h-9  transition duration-1000"
       />
     </a>
   );
