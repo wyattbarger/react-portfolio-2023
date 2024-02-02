@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ProjectCard from "../components/ProjectCard";
 import GamePopThumbnail from "../assets/LinkedIn-gamepop-sc.png";
 import ShinySpiderThumbnail from "../assets/readme-thumbnail-image.png";
 
 export default function Portfolio() {
   const [mouseHover, setMouseHover] = useState(false);
+  useEffect(() => {
+    document.title = "Wyatt Barger | Projects";
+  }, []);
+
   const projects = [
     {
       projectName: "Game Pop!",

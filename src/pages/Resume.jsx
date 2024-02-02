@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Drive from "../assets/google-drive.svg";
 import ResumeSc from "../assets/resume-screenshot.png";
 
 export default function Resume() {
   const [mouseHover, setMouseHover] = useState(false);
+  useEffect(() => {
+    document.title = "Wyatt Barger | Resume";
+  }, []);
 
   return (
     <section

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Email from "../assets/emailcyan700.png";
 import LinkedIn from "../assets/linkedincyan700.png";
 import EmailModal from "../components/EmailModal";
@@ -6,6 +6,9 @@ import EmailModal from "../components/EmailModal";
 export default function Contact() {
   const [mouseHover, setMouseHover] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  useEffect(() => {
+    document.title = "Wyatt Barger | Get In Touch";
+  }, []);
 
     const openModal = () => {
         setIsModalOpen(true);

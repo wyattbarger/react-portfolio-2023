@@ -1,10 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import React from "react";
 import Family from "../assets/family-about-pic1.png";
 import { Link } from "react-router-dom";
 
 export default function About() {
   const [mouseHover, setMouseHover] = useState(false);
+  useEffect(() => {
+    document.title = "Wyatt Barger | Who I Am";
+  }, []);
 
   return (
     <section
